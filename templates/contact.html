@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Kontakt{% endblock %}
+
+{% block content %}
+    <h2>Kontakt</h2>
+    <p>Jeśli chcesz się ze mną skontaktować, skorzystaj z poniższego formularza:</p>
+
+    <form action="{{ url_for('contact_form') }}" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <br>
+
+        <button type="submit">Wyślij</button>
+    </form>
+
+    <!--a href="{{ url_for('me') }}">Powrót do strony "O mnie"</a-->
+{% endblock %}

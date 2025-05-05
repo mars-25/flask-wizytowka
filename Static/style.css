@@ -1,0 +1,95 @@
+/* Resetowanie domyślnych stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styl dla ciała strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dde2c2;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Nagłówki */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: #7e8c9b;
+}
+
+h2 {
+    font-size: 22px;
+    color: #093361;
+    margin-bottom: 15px;
+}
+
+/* Kontener główny */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylizacja obrazu */
+.main-image {
+    max-width: 55%;
+    height: auto;
+    display: block;
+    margin: 10px auto 10px 0;
+}
+
+/* Lista informacji */
+ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+ul li {
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* Formularz kontaktowy */
+form {
+    width: 80%;
+    margin-top: 20px auto;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    text-align: left;
+    margin-left: 10px;
+}
